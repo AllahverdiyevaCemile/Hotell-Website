@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+    outline: none !important;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+}
+.logo:hover {
+    color: azure;
+}
+header nav ul li{
+    display: inline-block;
+    padding-left: 30px;
+}
+header a .logo{
+    float: left;
+}
+header nav{
+    float: right;
+}
+header nav ul li a{
+    font-size: 14px;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+header nav ul li a:hover, header nav ul li a:focus{
+    color: #40E0D0;
+}
+h1{
+    font-size: 36px;
+}
+#mainContent{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(../img/about_1.webp);
+    background-position: 40% 0% !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.mainArea{
+    margin-top: 220px;
+}
+.mainArea h1{
+
+    font-weight: 600;
+    color: #40E0D0;
+    margin-bottom: 40px;
+}
+.mainArea h2{
+    font-size: 36px;
+    color: white;
+    margin-bottom: 30px;
+}
+.mainArea p{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 40px;
+}
+.mainArea .btn-success{
+    margin-bottom: 60px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: #40E0D0;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+#services{
+    background-color: #efefef;
+    padding:50px 0px;
+}
+.servicesTop h1{
+    color: #40E0D0; 
+    font-weight: 600;
+}
+.servicesTop p{
+    font-style: italic;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.fa-desktop, .fa-print, .fa-mobile-alt{
+    color: #40E0D0;
+}
+.servicesContent h1{
+    color: #40E0D0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#works{
+    background:linear-gradient(rgba(25,88,82,0.6),rgba(25,88,82,0.7)), url(../img/big_image_1.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 50px 0px;
+    width: 100%;
+}
+.worksContent img{
+    width: 300px;
+    height: 200px;
+}
+#works h1 , #team h1{
+    color: white;
+}
+#works p , #team p{
+    font-style: italic;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+.col-md-3{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#counter{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url(../img/worksbg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 50px 0px;
+    width: 100%;
+    
+}
+ .fa-clock, .fa-users, .fa-thumbs-up{
+    font-size: 50px;
+    color: white;
+}
+#counter h1{
+    color: white;
+    font-size: 20px !important;
+}
+.teamContent img{
+    height: 100px;
+    width: 100px;
+}
+#team{
+    background:linear-gradient(rgba(25,88,82,0.6),rgba(25,88,82,0.7)), url(../img/big_image_1.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 50px 0px;
+}
+.teamContent img{
+    border-radius: 50%;
+}
+.teamContent h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.teamContent h4{
+    font-style: italic;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+.fa-twitter, .fa-linkedin-in{
+    color: white;
+    font-size: 18px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background-color: #04aeee;
+    border-radius: 50%;
+    margin: 5px;
+}
+.fa-twitter:hover, .fa-linkedin:hover{
+    background-color: #0177b5;
+}
+#partners{
+    background-color: #efefef;
+    padding: 50px 0px;
+}
+#partners img{
+    width: 200px;
+    height: 180px;
+}
+#sponsor{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+#contact{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)), url(../img/worksbg.jpeg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 130px 0px;
+    background-position: center;
+    height: auto;
+}
+#contact h1{
+    color: white;
+}
+#contact p{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+#contact a{
+    color: white;
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+input, textarea{
+    width: 100%;
+    border: none;
+    background-color: #40E0D0;
+    margin-bottom: 10px;
+    padding: 5px 0px 5px 10px;
+    resize: none;
+    color: white;
+}
+button[type=submit]{
+    width:100%;
+    background-color:white;
+    color:#c61f27;
+    border: none;
+    padding: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+::-moz-placeholder{
+    color: white;
+}
+:-moz-placeholder{
+    color: white;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+:-ms-input-placeholder{
+    color: white;
+}
+.contactContent h2{
+    color: #40E0D0;
+    font-size: 24px;
+    margin-top: -5px;
+}
+.contactContent p{
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 0 !important;
+   
+}
+.contactContent a{
+    cursor: pointer;
+}
